@@ -1,0 +1,824 @@
+Nilson, [20.09.16 08:59]
+Oi, vamos lá:
+
+Nilson, [20.09.16 08:59]
+Quem tá aí?
+
+Alessandra Barata, [20.09.16 08:59]
+Alessandra ... euzinha!
+
+Alessandra Barata, [20.09.16 09:00]
+Li a 1 .... procurei algo sobre Lisp e desisti
+
+Alessandra Barata, [20.09.16 09:00]
+fui pra 2
+
+Nilson, [20.09.16 09:00]
+Lisp é diferente.
+
+Alessandra Barata, [20.09.16 09:00]
+to comecanco ela!
+
+Thiago Borges, [20.09.16 09:00]
+[ 😎 Sticker ]
+
+Nilson, [20.09.16 09:00]
+Mas a idéia é simples.
+
+Nilson, [20.09.16 09:00]
+Vou começar:
+
+Alessandra Barata, [20.09.16 09:00]
+bora
+
+Nilson, [20.09.16 09:01]
+1. Programaçao funcional é baseada em: a) chamadas de funções (obvio). b) Na ausencia de efeitos colaterais da chamada - nem os parametros recebidos e nem variaveis GLOBAIS são mudadas e c) Recursão ao invés de loops.
+
+Nilson, [20.09.16 09:02]
+Isso é claro?
+
+Alessandra Barata, [20.09.16 09:02]
+sim
+
+Thiago Borges, [20.09.16 09:02]
+Sim
+
+Nilson, [20.09.16 09:02]
+O item 2 é muitoooo importante.
+
+Thiago Borges, [20.09.16 09:02]
+querem o exemplo da aula aqui?
+
+Nilson, [20.09.16 09:02]
+Não, obrigado. Pode pertubar a linha de raciocinio.
+
+Nilson, [20.09.16 09:03]
+Isso implica que nenhuma função pode alterar nada. A única coisa que uma função faz é receber parâmetros e calcular um  valor de saída.
+
+Thiago Borges, [20.09.16 09:03]
+blz
+
+Alessandra Barata, [20.09.16 09:03]
+👍
+
+Nilson, [20.09.16 09:03]
+ok?
+
+Thiago Borges, [20.09.16 09:04]
+certo
+
+Nilson, [20.09.16 09:04]
+def add(a,b): return a + b                 # em Python
+
+Alessandra Barata, [20.09.16 09:04]
+ok
+
+Nilson, [20.09.16 09:04]
+Bom, agora vamos as listas....
+
+Nilson, [20.09.16 09:04]
+Vou escrever uma funcao que inverte uma lista....
+
+Thiago Borges, [20.09.16 09:05]
+def add(a,b):
+    return a + b
+
+Thiago Borges, [20.09.16 09:05]
+só pra ficar elegante
+
+Nilson, [20.09.16 09:05]
+Ok
+
+Nilson, [20.09.16 09:05]
+Melhor....
+
+Nilson, [20.09.16 09:05]
+Escrever a função fatorial em Python no formato que resolve as outras questões.
+
+Nilson, [20.09.16 09:05]
+Um momento...
+
+Thiago Borges, [20.09.16 09:06]
+usa três crases pra abrir e três pra fechar
+
+Thiago Borges, [20.09.16 09:06]
+se estiver no pc
+
+Alessandra Barata, [20.09.16 09:06]
+n entendi Thiago..
+
+Nilson, [20.09.16 09:06]
+Posso prosseguir?
+
+Thiago Borges, [20.09.16 09:06]
+pode
+
+Alessandra Barata, [20.09.16 09:06]
+sim
+
+Nilson, [20.09.16 09:06]
+def fact(n):
+    if n == 0: return 1
+    return n * fact(n-1)
+
+Nilson, [20.09.16 09:07]
+Isso tem de ficar muito claro.
+
+Nilson, [20.09.16 09:07]
+O primeiro if faz um teste e RETORNA o resultado
+
+Alessandra Barata, [20.09.16 09:07]
+ok... vc so usa o if....e escreve a mesma fç
+
+Nilson, [20.09.16 09:07]
+Ele é a base da recursão
+
+Thiago Borges, [20.09.16 09:08]
+def fact(n):
+    if n == 0: return 1
+    return n * fact(n-1)
+
+Nilson, [20.09.16 09:08]
+Não Thiago
+
+Nilson, [20.09.16 09:08]
+Coloque o return na mesma linha
+
+Nilson, [20.09.16 09:08]
+Isso é importante.
+
+Nilson, [20.09.16 09:08]
+Esse é o modo funcional
+
+Nilson, [20.09.16 09:09]
+1 comando por linha por que cada linha é uma "micro-funcao". Não existem sequencias de comandos. É uma forma de pensar. Isso tem de ficar claro.
+
+Alessandra Barata, [20.09.16 09:09]
+👍
+
+Nilson, [20.09.16 09:09]
+Ok pra todo mundo?
+
+Alessandra Barata, [20.09.16 09:09]
+sim
+
+Thiago Borges, [20.09.16 09:10]
+blz
+
+Nilson, [20.09.16 09:10]
+Bom, o que foi feito na função? Voce dividiu o problema em 2, na base do problema e no resto.
+
+Nilson, [20.09.16 09:10]
+Vamos calcular o tamanho de uma lista agora:
+
+Nilson, [20.09.16 09:10]
+def tamanho(lista):
+
+Nilson, [20.09.16 09:11]
+Alguém quer tentar?
+
+Thiago Borges, [20.09.16 09:11]
+def tamanho(lista):
+    return len(lista)
+
+Nilson, [20.09.16 09:12]
+Digo, usando recursao e sem as funcoes do Python
+
+Nilson, [20.09.16 09:12]
+Vou fazer...
+
+Thiago Borges, [20.09.16 09:12]
+calma aí
+
+Thiago Borges, [20.09.16 09:13]
+só passando 1 parametro?
+
+Nilson, [20.09.16 09:13]
+Sim
+
+Thiago Borges, [20.09.16 09:13]
+no caso lista?
+
+Alessandra Barata, [20.09.16 09:13]
+perai
+
+Nilson, [20.09.16 09:13]
+querem tentar?
+
+Nilson, [20.09.16 09:14]
+Tentando ????
+
+Thiago Borges, [20.09.16 09:15]
+pensando na verdade
+
+Nilson, [20.09.16 09:15]
+A ideia é sempre a mesma. Procurem a BASE da recursão. Para qual lista vocês sabem o tamanho?
+
+Alessandra Barata, [20.09.16 09:15]
+tb rs
+
+Alessandra Barata, [20.09.16 09:15]
+perai
+
+Nilson, [20.09.16 09:16]
+Posso mostrar?
+
+Thiago Borges, [20.09.16 09:16]
+Melhor
+
+Alessandra Barata, [20.09.16 09:16]
+def tamanho(lista):
+      return(lista)
+
+Nilson, [20.09.16 09:16]
+def tamanho(lista):
+    if lista == []: return 0
+    return 1 + tamanho(cdr(lista))
+
+Alessandra Barata, [20.09.16 09:17]
+def tamanho(lista):
+      if range
+
+Alessandra Barata, [20.09.16 09:17]
+tava fazendo assim
+
+Nilson, [20.09.16 09:17]
+Tem de pensar de outra forma.
+
+Nilson, [20.09.16 09:17]
+A estratégia.... 1) Identificar a base - o ponto de parada da recursao.
+
+Nilson, [20.09.16 09:18]
+Ops...
+
+Nilson, [20.09.16 09:18]
+Um erro.
+
+Thiago Borges, [20.09.16 09:18]
+Tava encucado aqui
+
+Nilson, [20.09.16 09:18]
+Consertei
+
+Nilson, [20.09.16 09:18]
+A cada novo passo você CONSOME uma parte da lista e chama a recursao com o que restou.
+
+Thiago Borges, [20.09.16 09:19]
+mas o cdr retorna lista[1:len(lista)]
+
+Thiago Borges, [20.09.16 09:19]
+pelo menos o que eles ensinaram
+
+Nilson, [20.09.16 09:19]
+Sim, mas os arrays comecam em ZERO.
+
+Nilson, [20.09.16 09:19]
+Você pulou o primeiro item.
+
+Nilson, [20.09.16 09:20]
+O   CDR retorna a "calda" da lista  (TAIL em ingles).
+
+Nilson, [20.09.16 09:20]
+print(cdr([1,2,3])) ===> [2,3]
+
+Thiago Borges, [20.09.16 09:20]
+sim
+
+Thiago Borges, [20.09.16 09:20]
+ele elimina o primeiro elemento e passa o resto
+
+Nilson, [20.09.16 09:20]
+Alessandra, ficou claro?
+
+Alessandra Barata, [20.09.16 09:21]
+sim
+
+Nilson, [20.09.16 09:21]
+Isso.
+
+Nilson, [20.09.16 09:21]
+Esta é sempre a logica da solução.
+
+Nilson, [20.09.16 09:21]
+Tem de ser assim por que as funções:
+
+Nilson, [20.09.16 09:21]
+1) Não mudam os parametros que recebem
+
+Nilson, [20.09.16 09:21]
+2) Calculam novos valores
+Nilson, [20.09.16 09:21]
+3) Eventualmente usam recursao sobre estes novos valores
+
+Nilson, [20.09.16 09:22]
+4) E a recursão termina num ponto onde você sabe calcular o valor resultante sem dúvidas.
+
+Nilson, [20.09.16 09:22]
+Isso está muito claro? Olhem os dois exemplos que dei.
+
+Nilson, [20.09.16 09:23]
+Em ambos você - 1) testa pelo fim  2) CONSOME uma parte da entrada e passa a parte CONSUMIDA para uma nova recursão.
+
+Nilson, [20.09.16 09:23]
+Tem de entender isso!!!
+
+Nilson, [20.09.16 09:23]
+Isso está claro?
+
+Alessandra Barata, [20.09.16 09:23]
+ok
+
+Nilson, [20.09.16 09:23]
+Vamos contar quantos 1 aparecem numa lista?
+
+Nilson, [20.09.16 09:24]
+def contaUm(lista, contagem):
+
+Nilson, [20.09.16 09:24]
+Querem tentar?
+
+Nilson, [20.09.16 09:25]
+Eu faria com 2 ifs internos e um return final
+
+Nilson, [20.09.16 09:25]
+Qual seria o primeiro if?
+
+Alessandra Barata, [20.09.16 09:25]
+if lista ==1?
+
+Nilson, [20.09.16 09:25]
+Nao
+
+Alessandra Barata, [20.09.16 09:25]
+😕
+
+Nilson, [20.09.16 09:26]
+Acho que sua ideia estava no caminho, mas a implementacao não.
+
+Nilson, [20.09.16 09:26]
+Posso falar?
+
+Thiago Borges, [20.09.16 09:26]
+calma aí
+
+Nilson, [20.09.16 09:27]
+Posso? Ainda vao poder tentar nas outras linhas...
+
+Thiago Borges, [20.09.16 09:27]
+def conta_um(lista, contagem)
+    if lista == []: return 0
+    if lista[0] == 1: return conta_um(cdr(lista), contagem + 1)
+
+Nilson, [20.09.16 09:28]
+A função tem um cabeçalho direrente.
+
+Nilson, [20.09.16 09:29]
+def conta_um(lista, contagem):
+
+Nilson, [20.09.16 09:29]
+Quase....
+
+Thiago Borges, [20.09.16 09:29]
+eu sei
+
+Thiago Borges, [20.09.16 09:30]
+da uma forcinha aí alessandra
+
+Nilson, [20.09.16 09:31]
+Tem um defeito no primeiro if. É facil identificar.
+
+Alessandra Barata, [20.09.16 09:31]
+def conta_um(lista, contagem)
+      if lista == []: return 0
+      if lista[0] == 1: return conta_um(cdr(lista), contagem + 1)
+
+Nilson, [20.09.16 09:32]
+O segundo if deveria usar CAR
+
+Nilson, [20.09.16 09:32]
+E tem de ter o return final
+
+Nilson, [20.09.16 09:32]
+Vamos resolver o problema do primeiro if?
+
+Thiago Borges, [20.09.16 09:33]
+def conta_um(lista, contagem)
+    if lista == []: return 0
+    if car(lista) == 1: return conta_um(cdr(lista), contagem + 1)
+
+Alessandra Barata, [20.09.16 09:33]
+def conta_um(lista, contagem)
+      if lista == []: return 0
+      if lista[0] == 1: return conta_um(car(lista), contagem + 1)
+
+Nilson, [20.09.16 09:33]
+Thiago, o segundo if tá ok
+
+Nilson, [20.09.16 09:33]
+Falta resolver o primeiro if e o return do final
+
+Thiago Borges, [20.09.16 09:34]
+o primeiro eu t pensando
+
+Nilson, [20.09.16 09:34]
+Ok
+
+Alessandra Barata, [20.09.16 09:34]
+tem que por car no 1 if tb?
+
+Thiago Borges, [20.09.16 09:34]
+return contagem
+
+Thiago Borges, [20.09.16 09:34]
+?
+
+Nilson, [20.09.16 09:34]
+ISSO
+
+Alessandra Barata, [20.09.16 09:35]
+ISSO pra nos 2? rrs
+
+Nilson, [20.09.16 09:35]
+Infelizmente para o return contagem
+
+Alessandra Barata, [20.09.16 09:35]
+😕
+
+Nilson, [20.09.16 09:35]
+Republica ai Thiago...
+
+Thiago Borges, [20.09.16 09:36]
+def conta_um(lista, contagem)
+    if lista == []: return contagem
+    if car(lista) == 1: return conta_um(cdr(lista), contagem + 1)
+
+Alessandra Barata, [20.09.16 09:36]
+ahhh ta!
+
+Nilson, [20.09.16 09:36]
+Falta só o return
+
+Thiago Borges, [20.09.16 09:36]
+óbvio
+
+Alessandra Barata, [20.09.16 09:36]
+return conta_um
+
+Thiago Borges, [20.09.16 09:36]
+se não for igual a um não vai retornar nada
+
+Nilson, [20.09.16 09:37]
+Nao nao nao
+
+Nilson, [20.09.16 09:37]
+Sempre tem de retornar algo.
+
+Alessandra Barata, [20.09.16 09:37]
+retorna lista vazia?
+
+Nilson, [20.09.16 09:37]
+Não.
+
+Nilson, [20.09.16 09:37]
+Pensem em como isso funciona.
+
+Nilson, [20.09.16 09:38]
+print( conta_um( [2,1],0 ))
+
+Thiago Borges, [20.09.16 09:38]
+def conta_um(lista, contagem):
+    if lista == []: return contagem
+    if car(lista) == 1: return conta_um(cdr(lista), contagem + 1)
+    return conta_um(cdr(lista), contagem)
+
+Nilson, [20.09.16 09:38]
+Quaseeee Thiago. Não está errado, mas lembra que eu disse que eram 2 ifs e 1 return?
+
+Nilson, [20.09.16 09:39]
+Isso
+
+Nilson, [20.09.16 09:39]
+E tem de chamar com conta_um(lista, 0)
+
+Thiago Borges, [20.09.16 09:39]
+justamente, passando os ifs anteriores não precisa de mais um
+
+Nilson, [20.09.16 09:40]
+Este padrão de montar as funções é o padrão de linguagems como Haskell, ML e F#
+
+Nilson, [20.09.16 09:40]
+Bom, agora vamos fazer a mesma coisa sem o parametro contagem.
+
+Nilson, [20.09.16 09:40]
+def conta_1(lista):
+
+Nilson, [20.09.16 09:41]
+Alessandra, tem alguma dúvida?
+
+Alessandra Barata, [20.09.16 09:42]
+to com problema em escreverr isso... to entendendo , mas na hora de escrever .... mas vms la!
+
+Thiago Borges, [20.09.16 09:42]
+def conta_1(lista):
+    if lista == []: return 0
+    if car(lista) == 1: return conta_1(cdr(lista)) + 1
+    return conta_1(cdr(lista))
+
+Nilson, [20.09.16 09:42]
+Quase thiago
+
+Alessandra Barata, [20.09.16 09:43]
+acho que o ultimo return mudaria ne?
+
+Nilson, [20.09.16 09:43]
+ISSSOOOO
+
+Nilson, [20.09.16 09:43]
+Ops.
+
+Nilson, [20.09.16 09:43]
+Thiago, tem um erro na linha 2 Thiago.
+
+Nilson, [20.09.16 09:43]
+Você não CONSUMIU.
+
+Nilson, [20.09.16 09:44]
+sso
+
+Nilson, [20.09.16 09:44]
+Agora tá certo.
+
+Thiago Borges, [20.09.16 09:44]
+def conta_1(lista):
+    if lista == []: return 0
+    if car(lista) == 1: return conta_1(cdr(lista)) + 1
+    return conta_1(cdr(lista))
+
+Nilson, [20.09.16 09:44]
+Na linha 2 eu colocaria o 1 na frente. É sempre bom deixar a recursão para o final
+
+Nilson, [20.09.16 09:45]
+Isso evidencia o que você está alterando antes da recursão
+
+Nilson, [20.09.16 09:45]
+1 + recursao
+
+Thiago Borges, [20.09.16 09:45]
+é que eu já tinha começado a escrever e fiquei com preguiça de apagar
+
+Thiago Borges, [20.09.16 09:45]
+def conta_1(lista):
+    if lista == []: return 0
+    if car(lista) == 1: return 1 + conta_1(cdr(lista))
+    return conta_1(cdr(lista))
+
+Nilson, [20.09.16 09:45]
+Thiago, está claro?
+
+Thiago Borges, [20.09.16 09:46]
+sim
+
+Nilson, [20.09.16 09:46]
+Nosso papo esclareceu um pouco as coisas?
+
+Thiago Borges, [20.09.16 09:46]
+é essa bagaça aí que a gente vai ter que se virar pra fazer
+
+Thiago Borges, [20.09.16 09:46]
+ajudou bastante
+
+Nilson, [20.09.16 09:46]
+Este é o modelo. Todas as funções da questão 1 seguem estes modelos...
+
+Thiago Borges, [20.09.16 09:47]
+entendi
+
+Nilson, [20.09.16 09:47]
+Vamos falar da ESTRATEGIA para resolver o primeiro problema da questão 1, ok?
+
+Nilson, [20.09.16 09:47]
+Depois vocês escrevem por conta propria.
+
+Thiago Borges, [20.09.16 09:47]
+não vai ser fácil, vou ter que queimar a mufa
+
+Thiago Borges, [20.09.16 09:47]
+mas vai sair
+
+Nilson, [20.09.16 09:47]
+def obterSetor(lista, inicio, fim):
+    # função que recebe como parâmetros uma lista elementos e
+    # um par de valores inteiros, chamados de inicio e de fim,
+    #   que definem o intervalo de e elementos da lista que devem
+    # compor o retorno da função
+
+Alessandra Barata, [20.09.16 09:47]
+ok
+
+Nilson, [20.09.16 09:48]
+Qual seria a estratégia para resolver?
+
+Thiago Borges, [20.09.16 09:48]
+tem que rodar cdr até a primeira entrada zerar
+
+Nilson, [20.09.16 09:49]
+Zerar?
+
+Thiago Borges, [20.09.16 09:49]
+2 -1
+
+Thiago Borges, [20.09.16 09:49]
+inicio -1
+
+Nilson, [20.09.16 09:49]
+Isso
+Nilson, [20.09.16 09:49]
+E depois?
+
+Nilson, [20.09.16 09:49]
+Olha....
+
+Alessandra Barata, [20.09.16 09:50]
+inicio -2 não e nao?
+
+Nilson, [20.09.16 09:50]
+Um programa funcional, não tem sequencias de instrucoes.
+
+Nilson, [20.09.16 09:50]
+Tem chamadas de funcoes aninhadas.
+
+Nilson, [20.09.16 09:50]
+Então cada PARTE deve ser uma outra funcao.
+
+Nilson, [20.09.16 09:50]
+O que o Thiago falou: rodar crd até zerar tem de se colocado em OUTRA funcao.
+
+Thiago Borges, [20.09.16 09:51]
+entendi
+
+Nilson, [20.09.16 09:51]
+Cujo resultado e ENtrada de outra funcao, entende?
+
+Nilson, [20.09.16 09:51]
+obter(lista,i,f)
+
+Thiago Borges, [20.09.16 09:51]
+uma função que vai retornar a posição iinicial
+
+Nilson, [20.09.16 09:51]
+[Em resposta a Thiago Borges]
+Não é bem isso
+
+Nilson, [20.09.16 09:52]
+def obter(lista,i,f):
+    return    funcao2 ( funcao1 ( parametros), parametros)
+
+Nilson, [20.09.16 09:52]
+A funcao 1 retorna uma LISTA sem os primeiros elementos
+
+Nilson, [20.09.16 09:52]
+A funcao2 retorna apenas os elementos desejados da lista que recebeu da funcao1
+
+Nilson, [20.09.16 09:53]
+Deu para entender?
+
+Nilson, [20.09.16 09:53]
+Por exemplo, se voce SEMPRE fosse atuar a partir do segundo elemento, a funcao1 seria apenas o CDR
+
+Nilson, [20.09.16 09:54]
+Em programacao funcional, voce troca as sequencias de comandos, por aninhamentos de funcoes.
+
+Nilson, [20.09.16 09:54]
+Uma funcao3 chama funcao2 que chama funcao1  =>  funcao3(funcao2(funcao1()))
+
+Nilson, [20.09.16 09:54]
+e equivalente a:
+  funcao1
+  funcao2
+  funcao3
+
+Alessandra Barata, [20.09.16 09:55]
+NIlson.... no caso desta questao terei 3 funcoes certo?
+
+Thiago Borges, [20.09.16 09:55]
+def obterSetor(lista, inicio, fim):
+    return setor(posicao(lista, incio), posicao(lista, final))
+
+Alessandra Barata, [20.09.16 09:56]
+terei que rfzer a fç 1 ... a 2... e a 3
+
+Alessandra Barata, [20.09.16 09:56]
+e uma chamdn o outra ok?
+
+Thiago Borges, [20.09.16 09:57]
+Não é bem isso
+
+Nilson, [20.09.16 09:57]
+[Em resposta a Alessandra Barata]
+Você tera NO MINIMO 3 funcoes, uma para cada item da questão 1. Mas cada uma destas pode precisar de mais funcoes auxiliares.
+
+Alessandra Barata, [20.09.16 09:57]
+ok
+
+Thiago Borges, [20.09.16 09:57]
+ela está falando da obterSetor
+
+Nilson, [20.09.16 09:58]
+Eu usei 2 auxiliares para o "obter", Nenhuma para o "rodar" e 1 para o "ordenar".
+
+Nilson, [20.09.16 09:59]
+Bom, 1 horinha de papo.
+
+Nilson, [20.09.16 09:59]
+Espero que tenha dado uma luz.
+
+Thiago Borges, [20.09.16 09:59]
+Deu sim, Nilson
+
+Thiago Borges, [20.09.16 09:59]
+Ajudou bastante
+
+Alessandra Barata, [20.09.16 09:59]
+👍 vlw Nilson
+
+Alessandra Barata, [20.09.16 10:00]
+vou "quebrar" a cabeça aki..... e qq coisa grito vcs ... ta Thiago?rs
+
+Thiago Borges, [20.09.16 10:00]
+eu vou qubrar a cabeça aqui também
+
+Nilson, [20.09.16 10:00]
+Alessandra, se tiver dúvidas tenta o Thiago por que ele é show. E se ainda tiverem dúvidas falem comigo. Só não posso fazer, mas posso indicar. Revejam TUDO o que eu escrevi por que define a ESTRUTURA da solução de todos os problemas.
+
+Alessandra Barata, [20.09.16 10:01]
+blz
+
+Alessandra Barata, [20.09.16 10:01]
+obrigada Nilson!!!
+
+Nilson, [20.09.16 10:01]
+Só mais um problema para vocês....
+
+Nilson, [20.09.16 10:01]
+Hummm
+
+Thiago Borges, [20.09.16 10:01]
+[Em resposta a Nilson]
+Eu sou show quando eu sei!!!
+
+Alessandra Barata, [20.09.16 10:01]
+kkkkk
+
+Thiago Borges, [20.09.16 10:01]
+Quando eu to na dúvida aí eu recorro ao Nilson
+
+Alessandra Barata, [20.09.16 10:01]
+modesto !
+
+Nilson, [20.09.16 10:01]
+Mas agora você sabe. E as dúvidas dos outros vão te estimular.
+
+Thiago Borges, [20.09.16 10:02]
+As dúvidas dos colegas me ajudam muito
+
+Thiago Borges, [20.09.16 10:02]
+Aprendo mais com eles do que com os professores das video aulas
+
+Nilson, [20.09.16 10:02]
+Não é mesmo? Eu adoro explicar por que deixa as coisas mais claras para mim.
+
+Nilson, [20.09.16 10:02]
+Explicar te coloca a prova.
+
+Thiago Borges, [20.09.16 10:02]
+Com certeza
+
+Thiago Borges, [20.09.16 10:03]
+Você só consegue explicar se aprendeu
+
+Nilson, [20.09.16 10:03]
+Bom, posso passar um exercício?
+
+Nilson, [20.09.16 10:03]
+inverter uma lista
+
+Thiago Borges, [20.09.16 10:04]
+uma dica: usar o cons
+
+Nilson, [20.09.16 10:04]
+Não... Melhor não.
+
+Nilson, [20.09.16 10:04]
+Sugiro que se concentrem no que eu escrevi, revejam este papo e tentem os exercicios da lista.
+
+Alessandra Barata, [20.09.16 10:04]
+Vdd Thiago!
+
+Nilson, [20.09.16 10:05]
+Dica: no "rodar", rodar para um lado é facil, para o outro não é. Eu usei um truque de rodar mais do que o pedido para ter o mesmo efeito.
+
+Nilson, [20.09.16 10:06]
+Bom, vou sair. T+
+
+Thiago Borges, [20.09.16 10:06]
+Valeu!!
