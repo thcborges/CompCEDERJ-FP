@@ -1,7 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b026298-103a-46ba-9cbe-bfefe7e21b1a" name="Default" comment="" />
+    <list default="true" id="9b026298-103a-46ba-9cbe-bfefe7e21b1a" name="Default" comment="Algoritmos aula 06 e exercicios aula 01 refeitos">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/ab.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1001.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1002.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1006.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1007.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1008.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1014.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1015.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1016.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1020.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1930.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 06/algoritmos_de_busca.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Aulas/Aula 06/menor_maior.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/Fundamentos de Programação.iml" afterPath="$PROJECT_DIR$/.idea/Fundamentos de Programação.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AD1.pdf" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1.pdf" />
+      <change beforePath="$PROJECT_DIR$/AD1/.idea/AD1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1 (2).zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1 (2).zip" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/AD1 (2).zip" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1-Gabarito.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1-Gabarito.zip" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/AD1-Gabarito.zip" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/AD1.zip" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/AD1.zip" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.c" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao1.c" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.exe" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao1.exe" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.o" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao1.o" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao1.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao1.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao2.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao2.c" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao2.c" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao2.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao2.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao2.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao3.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao3.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao3.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao4.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao4.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao4.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao5.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao5.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao5.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao6.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/questao6.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/questao6.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/testes.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/testes.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/testes.py" />
+      <change beforePath="$PROJECT_DIR$/AD1/testes2.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD1/testes2.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD1/testes2.py" />
+      <change beforePath="$PROJECT_DIR$/AD2-Gabarito.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2.pdf" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2.pdf" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/AD2.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/dictionaries/Leandro.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q1.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q1.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q2.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q2.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q3.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q3.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q4.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q4.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q5-auxiliar.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q5-auxiliar.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q5.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q5.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q6-auxiliar.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q6-auxiliar.py" />
+      <change beforePath="$PROJECT_DIR$/AD2/AD2Q6.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2Q6.py" />
+      <change beforePath="$PROJECT_DIR$/AD2[1].pdf" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2[1].pdf" />
+      <change beforePath="$PROJECT_DIR$/AP1/.idea/AP1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AP1/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AP1/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/AP1/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/Fundamentos de Programação.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/dictionaries/thcbo.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/encodings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/1029.c" afterPath="$PROJECT_DIR$/Aulas/1029.c" />
+      <change beforePath="$PROJECT_DIR$/exercicios/1029.exe" afterPath="$PROJECT_DIR$/Aulas/1029.exe" />
+      <change beforePath="$PROJECT_DIR$/exercicios/1029.o" afterPath="$PROJECT_DIR$/Aulas/1029.o" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2 0.0/q3.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2 0.0/q3.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2 0.0/questao1b.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2 0.0/questao1b.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/AD2.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/AD2.zip" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/AD2.zip" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/AD2[1].zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/AD2[1].zip" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/AD2[1].zip" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/EstruturasDeDados.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/EstruturasDeDados.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/EstruturasDeDados.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/FAC.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/FAC.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/FAC.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/FundamentosDeProgramacao.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/FundamentosDeProgramacao.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/FundamentosDeProgramacao.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/TecnologiaEmSistemasDeComputacao.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/TecnologiaEmSistemasDeComputacao.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/TecnologiaEmSistemasDeComputacao.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/ab.bin" afterPath="$PROJECT_DIR$/Aulas/ab.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/carta.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/carta.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/carta.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/comentario q3.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/comentario q3.docx" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/comentario q3.docx" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/conversa_questao1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/conversa_questao1.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/conversa_questao1.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/cores.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/cores.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/cores.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/numeros.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/numeros.bin" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/numeros.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/q5.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/q5.bin" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/q5.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/q6.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/q6.bin" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/q6.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao1.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao1.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao2.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao2.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao2.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao3.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao3.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao3.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao4.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao4.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao4.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao5.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao5.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao5.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao6.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/questao6.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao6.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/s.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/s.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/s.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/sin.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/sin.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/sin.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/test.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/test.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/teste.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/teste.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/teste.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/teste_temp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/teste_temp.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/teste_temp.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/texto.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/texto.txt" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/texto.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/victor q5.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/AD2/victor q5.py" afterPath="$PROJECT_DIR$/ADs-2016.2/AD2/AD2/victor q5.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1001.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1002.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1006.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1007.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1008.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1014.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1015.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1016.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1020.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 02/1930.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1005.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1005.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1018.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1018.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1042.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1042.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1043.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1043.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1045.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1045.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1047.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1047.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1066.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1066.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1071.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1071.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1072.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1072.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/1157.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1157.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 03/aula3 - cr.py" afterPath="$PROJECT_DIR$/Aulas/Aula 03/aula3 - cr.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula04exercicioA-URI-1029.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioA-URI-1029.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula04exercicioB-URI-1441.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioB-URI-1441.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula04exercicioC-URI-1366.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioC-URI-1366.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula04exercicioD-URI-1428.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioD-URI-1428.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula04exercicioG-URI-1192.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioG-URI-1192.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula4 - fatorial.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/aula4 - fatorial.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 04/aula4 - imc.py" afterPath="$PROJECT_DIR$/Aulas/Aula 04/aula4 - imc.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 05/aula05-alunosAprovados.py" afterPath="$PROJECT_DIR$/Aulas/Aula 05/aula05-alunosAprovados.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 05/aula05-alunosAprovadosEntradaDinamica.py" afterPath="$PROJECT_DIR$/Aulas/Aula 05/aula05-alunosAprovadosEntradaDinamica.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 05/aula05-ler10NumerosEOrdenaLos.py" afterPath="$PROJECT_DIR$/Aulas/Aula 05/aula05-ler10NumerosEOrdenaLos.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 05/expressaoNumerica.py" afterPath="$PROJECT_DIR$/Aulas/Aula 05/expressaoNumerica.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 05/listaDeCompras.py" afterPath="$PROJECT_DIR$/Aulas/Aula 05/listaDeCompras.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 06/1172.py" afterPath="$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1172.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 06/1180.py" afterPath="$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1180.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 06/1533-2.py" afterPath="$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1533-2.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 06/1533.py" afterPath="$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1533.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 08/1062.py" afterPath="$PROJECT_DIR$/Aulas/Aula 08/Exercicios/1062.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 08/criando_lista.py" afterPath="$PROJECT_DIR$/Aulas/Aula 08/criando_lista.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 08/lista_de_listas.py" afterPath="$PROJECT_DIR$/Aulas/Aula 08/lista_de_listas.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/arquivos_texto.py" afterPath="$PROJECT_DIR$/Aulas/Aula 09/arquivos_texto.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/copiando.py" afterPath="$PROJECT_DIR$/Aulas/Aula 09/copiando.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/pontos.txt" afterPath="$PROJECT_DIR$/Aulas/Aula 09/pontos.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/pontos_2d.py" afterPath="$PROJECT_DIR$/Aulas/Aula 09/pontos_2d.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/teste.txt" afterPath="$PROJECT_DIR$/Aulas/Aula 09/teste.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 09/teste2.txt" afterPath="$PROJECT_DIR$/Aulas/Aula 09/teste2.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/caracteristicas_populacao.py" afterPath="$PROJECT_DIR$/Aulas/Aula 10/caracteristicas_populacao.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/conjuntos.py" afterPath="$PROJECT_DIR$/Aulas/Aula 10/conjuntos.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/conta_vogais_e_digitos.py" afterPath="$PROJECT_DIR$/Aulas/Aula 10/conta_vogais_e_digitos.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/crivo_de_eratostenes.py" afterPath="$PROJECT_DIR$/Aulas/Aula 10/crivo_de_eratostenes.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/ferias.py" afterPath="$PROJECT_DIR$/Aulas/Aula 10/ferias.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 10/primos.txt" afterPath="$PROJECT_DIR$/Aulas/Aula 10/primos.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 11/dicionarios.py" afterPath="$PROJECT_DIR$/Aulas/Aula 11/dicionarios.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 11/matriz_esparsa.py" afterPath="$PROJECT_DIR$/Aulas/Aula 11/matriz_esparsa.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 11/supermercado.py" afterPath="$PROJECT_DIR$/Aulas/Aula 11/supermercado.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/arquivo.bin" afterPath="$PROJECT_DIR$/Aulas/Aula 12/arquivo.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/copia.bin" afterPath="$PROJECT_DIR$/Aulas/Aula 12/copia.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/cr.bin" afterPath="$PROJECT_DIR$/Aulas/Aula 12/cr.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/cr_alunos.py" afterPath="$PROJECT_DIR$/Aulas/Aula 12/cr_alunos.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/numeros.bin" afterPath="$PROJECT_DIR$/Aulas/Aula 12/numeros.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/operacoes_basicas_arquivo_binario.py" afterPath="$PROJECT_DIR$/Aulas/Aula 12/operacoes_basicas_arquivo_binario.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/Aula 12/registros.py" afterPath="$PROJECT_DIR$/Aulas/Aula 12/registros.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/ab.bin" afterPath="$PROJECT_DIR$/Aulas/ab.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/divisores.py" afterPath="$PROJECT_DIR$/Aulas/divisores.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/fac_aula6_ex4.py" afterPath="$PROJECT_DIR$/Aulas/fac_aula6_ex4.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/nanda01.py" afterPath="$PROJECT_DIR$/Aulas/nanda01.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/palpite.py" afterPath="$PROJECT_DIR$/Aulas/palpite.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/primos.py" afterPath="$PROJECT_DIR$/Aulas/primos.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/primos.txt" afterPath="$PROJECT_DIR$/Aulas/primos.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/q5.bin" afterPath="$PROJECT_DIR$/Aulas/q5.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/q6.bin" afterPath="$PROJECT_DIR$/Aulas/q6.bin" />
+      <change beforePath="$PROJECT_DIR$/exercicios/teste.txt" afterPath="$PROJECT_DIR$/Aulas/teste.txt" />
+      <change beforePath="$PROJECT_DIR$/exercicios/testes.py" afterPath="$PROJECT_DIR$/Aulas/testes.py" />
+      <change beforePath="$PROJECT_DIR$/exercicios/triangulo de pascal.py" afterPath="$PROJECT_DIR$/Aulas/triangulo de pascal.py" />
+      <change beforePath="$PROJECT_DIR$/hello/.idea/hello.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello/main" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,14 +231,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1930.coverage" NAME="1930 Coverage Results" MODIFIED="1516987397616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1015.coverage" NAME="1015 Coverage Results" MODIFIED="1516986787525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1006.coverage" NAME="1006 Coverage Results" MODIFIED="1516987162050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1002.coverage" NAME="1002 Coverage Results" MODIFIED="1516985788101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1007.coverage" NAME="1007 Coverage Results" MODIFIED="1516987040715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+    <SUITE FILE_PATH="coverage/Fundamentos_de_Programação$1020.coverage" NAME="1020 Coverage Results" MODIFIED="1516986285532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios/Aula 02" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="questao3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao3.py">
+      <file leaf-file-name="aula04exercicioA-URI-1029.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioA-URI-1029.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -25,7 +254,100 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="listaDeCompras.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aulas/Aula 05/listaDeCompras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1062.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aulas/Aula 08/Exercicios/1062.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algoritmos_de_busca.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/algoritmos_de_busca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menor_maior.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/menor_maior.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1001.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1002.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1008.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1014.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1020.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1016.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1015.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1007.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1006.py" />
+        <option value="$PROJECT_DIR$/exercicios/Aula 02/1930.py" />
+        <option value="$PROJECT_DIR$/Aulas/Aula 06/algoritmos_de_busca.py" />
+        <option value="$PROJECT_DIR$/Aulas/Aula 06/menor_maior.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -48,67 +370,178 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercicios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentos de Programação" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercicios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AD2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Fundamentos de Programação" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fundamentos de Programação" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fundamentos de Programação" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fundamentos de Programação" type="462c0819:PsiDirectoryNode" />
+              <item name="ADs-2016.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fundamentos de Programação" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fundamentos de Programação" type="462c0819:PsiDirectoryNode" />
+              <item name="AP1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\Aulas\Aula 06" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\ADs-2016.2" />
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\Gabaritos" />
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\ADs-2016.1\AD2" />
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\ADs-2016.1" />
+      <recent name="E:\thcborges\OneDrive\CEDERJ\2o periodo\Fundamentos de Programação\Aulas\Aula 08\Exercicios" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.1930">
+    <configuration name="1006" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicios/Aula 02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Fundamentos de Programação" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicios/Aula 02/1006.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1007" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicios/Aula 02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Fundamentos de Programação" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicios/Aula 02/1007.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1015" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicios/Aula 02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Fundamentos de Programação" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicios/Aula 02/1015.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1020" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicios/Aula 02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Fundamentos de Programação" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicios/Aula 02/1020.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1930" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicios/Aula 02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Fundamentos de Programação" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicios/Aula 02/1930.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.1020" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1015" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1007" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1006" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1930" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.1930" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1006" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1007" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1015" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1020" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -127,31 +560,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-8" width="1317" height="784" extended-state="6" />
+    <frame x="57" y="-8" width="1317" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25775656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26173428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -161,7 +599,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao3.py">
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -169,7 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao3.py">
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -177,25 +615,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao5.py">
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao4.py">
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1324">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercicios/AD2/questao3.py">
+    <entry file="file://$PROJECT_DIR$/ADs-2016.2/AD2/AD2/questao3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1006.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1930.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/main">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 03/Exercicios/1005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1007.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1015.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1020.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1014.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 02/Exercicios/1008.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 04/Exercicios/aula04exercicioA-URI-1029.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1533.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1533-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/Exercicios/1172.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 05/listaDeCompras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 08/Exercicios/1062.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/algoritmos_de_busca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/Aula 06/menor_maior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
