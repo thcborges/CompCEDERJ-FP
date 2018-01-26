@@ -1,4 +1,5 @@
-# Repositório da disciplina Findamentos de Programação do curso de Tecnologia em Sistemas de Computação da UFF
+# CompCEDERJ-FP
+## Repositório da disciplina Fundamentos de Programação do curso de Tecnologia em Sistemas de Computação da UFF
 
 - Os códigos das aulas estão nas disponíveis para testes nas pastas aulas.
 - Cada  pasta aula contém uma pasta com os exercícios resolvidos. 
