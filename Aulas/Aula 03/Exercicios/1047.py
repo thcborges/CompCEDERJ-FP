@@ -1,18 +1,6 @@
-t = input().split()
-
-hi = int(t[0])
-mi = int(t[1])
-hf = int(t[2])
-mf = int(t[3])
-
-md = mf - mi
-hd = hf - hi
-
-if hd <= 0:
-    hd += 24
-
-if md < 0:
-    md += 60
-    hd -= 1
-
-print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" % (hd, md), end="\n")
+hora_inicial, minuto_inicial, hora_final, minuto_final = map(float, input().split())
+horas_duracao, minutos_duracao = hora_final - hora_inicial, minuto_final - minuto_inicial
+horas_duracao += 24 if horas_duracao < 0 else 0
+if minutos_duracao < 0:
+    minutos_duracao, horas_duracao = minutos_duracao + 60, horas_duracao - 1
+print("O JOGO DUROU {} HORA(S) E {} MINUTO(S)".format(horas_duracao, minutos_duracao))

@@ -1,18 +1,7 @@
-x = int(input())
-y = int(input())
-
+x, y = int(input()), int(input())
 if x > y:
-    aux = x
-    x = y
-    y = aux
-
-if x % 2 == 0:
-    x += 1
+    n, x = -1, x - 1
 else:
-    x += 2
-
-soma = 0
-for i in range(x, y, 2):
-    soma += i
-
-print(soma)
+    n, y = 1, y + 1
+impares = [impar for impar in range(x, y, n) if impar % 2 == 1]
+print(sum(impares))

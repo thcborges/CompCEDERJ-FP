@@ -1,4 +1,2 @@
-a = float(input())
-b = float(input())
-m = ((a * 3.5) + (b * 7.5)) / 11
-print("MEDIA = %.5f" % m)
+a, b = float(input()) * 3.5, float(input()) * 7.5
+print("MEDIA = {:.5f}".format((a + b) / 11))

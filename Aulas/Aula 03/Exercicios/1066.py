@@ -1,20 +1,11 @@
-par = 0
-impar = 0
-positivo = 0
-negativo = 0
-for i in range(5):
-   n = int(input())
-   if n % 2 == 0:
-       par = par + 1
-   else:
-       impar = impar + 1
-   if n > 0:
-       positivo = positivo + 1
-   if n < 0:
-       negativo = negativo + 1
-print("%d valor(es) par(es)\n%d valor(es) impar(es)\n%d valor(es) positivo(s)\n%d valor(es) negativo(s)" % (par, impar, positivo, negativo), end="\n")
-'''
-print("%d valor(es) impar(es)" % impar, end="\n")
-print("%d valor(es) positivos(s)" % positivo, end="\n")
-print("%d valor(es) negativo(s)" % negativo, end="\n")
-'''
+numeros = int(input()), int(input()), int(input()), int(input()), int(input())
+negativo = positivo = impar = par = 0
+for n in numeros:
+    par += 1 if n % 2 == 0 else 0
+    impar += 1 if n % 2 == 1 else 0
+    positivo += 1 if n > 0 else 0
+    negativo += 1 if n < 0 else 0
+print('{} valor(es) par(es)'.format(par))
+print('{} valor(es) impar(es)'.format(impar))
+print('{} valor(es) positivo(s)'.format(positivo))
+print('{} valor(es) negativo(s)'.format(negativo))

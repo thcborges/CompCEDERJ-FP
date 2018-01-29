@@ -1,30 +1,18 @@
-tri = input().split()
-A = float(tri[0])
-B = float(tri[1])
-C = float(tri[2])
-if B > A:
-    aux = A
-    A = B
-    B = aux
-if C > A:
-    aux = A
-    A = C
-    C = aux
-if C > B:
-    aux = B
-    B = C
-    C = aux
-
-if A >= B + C:
+lados = list(map(float, input().split()))
+maior = max(lados)
+lados.remove(maior)
+menor = min(lados)
+lados.remove(menor)
+if maior >= lados[0] + menor:
     print("NAO FORMA TRIANGULO")
 else:
-    if ((A * A) == (B * B) + (C * C)):
+    if (maior ** 2) == (lados[0] ** 2) + (menor ** 2):
         print("TRIANGULO RETANGULO")
-    if ((A * A) > (B * B) + (C * C)):
+    elif (maior ** 2) > (lados[0] ** 2) + (menor ** 2):
         print("TRIANGULO OBTUSANGULO")
-    if ((A * A) < (B * B) + (C * C)):
+    elif (maior ** 2) < (lados[0] ** 2) + (menor ** 2):
         print("TRIANGULO ACUTANGULO")
-    if ((A == B) and (B == C)):
+    if maior == lados[0] and lados[0] == menor:
         print("TRIANGULO EQUILATERO")
-    elif ((A == B) or (A == C) or (B == C)):
+    elif maior == lados[0] or maior == menor or menor == lados[0]:
         print("TRIANGULO ISOSCELES")

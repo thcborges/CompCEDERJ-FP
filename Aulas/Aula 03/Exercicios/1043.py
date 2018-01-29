@@ -1,12 +1,5 @@
-t = input().split()
-
-a = float(t[0])
-b = float(t[1])
-c = float(t[2])
-
-if ((a + b > c) and (a + c > b) and (b + c > a)):
-    medida = a + b + c
-    print("Perimetro = %.1f" % medida, end="\n")
+a, b, c = map(float, input().split())
+if max(a, b, c) >= a + b + c - max(a, b, c):
+    print("Perimetro = {:.1f}".format(a + b + c))
 else:
-    medida = ((a + b) * c) / 2
-    print("Area = %.1f" % medida, end="\n")
+    print("Area = {:.1f}".format((a + b) * c / 2))
